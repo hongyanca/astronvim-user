@@ -1,4 +1,6 @@
-# AstroNvim User Configuration Example
+# AstroNvim User Configuration
+
+This repo is forked from https://github.com/AstroNvim/user_example
 
 A user configuration template for [AstroNvim](https://github.com/AstroNvim/AstroNvim)
 
@@ -26,7 +28,7 @@ You can also just clone this repository directly if you do not want to track you
 #### Clone the repository
 
 ```shell
-git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim/lua/user
+git clone https://github.com/hongyanca/astronvim-user ~/.config/nvim/lua/user
 ```
 
 #### Start Neovim
