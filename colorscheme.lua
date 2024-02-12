@@ -1,3 +1,4 @@
-return "catppuccin"
--- return "vscode"
+-- return "catppuccin"
 -- return "kanagawa"
+-- return "onedark"
+return "vscode"
