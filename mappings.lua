@@ -37,4 +37,10 @@ return {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
   },
+  -- https://github.com/orgs/community/discussions/8105#discussioncomment-4791812
+  i = {
+      ["<S-Tab>"] = { 'copilot#Accept("<CR>")', noremap = true, silent = true, expr = true, replace_keycodes = false },
+      ["<C-J>"] = { 'copilot#Next()', silent = true, expr = true },
+      ["<C-K>"] = { 'copilot#Previous()', silent = true, expr = true },
+  }
 }
